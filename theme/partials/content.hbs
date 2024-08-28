@@ -2,20 +2,10 @@
 <div id="container">
 
   <!--
-    Gallery title
-  -->
-  <header>
-    <h1><a href="{{relative gallery.home.url}}">{{gallery.title}}</a></h1>
-  </header>
-
-  <!--
     Breadcrumbs of parent albums
   -->
   <nav class="breadcrumbs">
-    {{#each breadcrumbs~}}
-      <a class="breadcrumb-item" href="{{relative url}}">{{title}}</a>&nbsp;/&nbsp;
-    {{~/each~}}
-    <a class="breadcrumb-item" href="{{relative album.url}}">{{album.title}}</a>
+    <a href="https://mattellery.co.uk">mattellery.co.uk</a>
   </nav>
 
   {{#if settings.featuredAlbum}}
