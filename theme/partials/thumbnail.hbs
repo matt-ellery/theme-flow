@@ -20,6 +20,7 @@
     {{~/if~}}
 
     {{#if meta.exif}}
+        data-imagedescription="{{meta.exif.ImageDescription}}"
         data-datetimeoriginal="{{meta.exif.DateTimeOriginal}}"
         data-fnumber="{{meta.exif.FNumber}}"
         data-exposuretime="{{meta.exif.ExposureTime}}"
